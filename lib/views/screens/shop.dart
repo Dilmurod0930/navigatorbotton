@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigatorbottom/main.dart';
+import 'package:navigatorbottom/views/pages/shopmanyu_page.dart';
 
 
 class SHopPage extends StatefulWidget {
@@ -14,7 +15,7 @@ class _SHopPageState extends State<SHopPage> {
   Widget build(BuildContext context) {
     return PageView(
       children: [
-        // ShopManyuPage(),
+        MyShopPage()
         
       ],
     );
