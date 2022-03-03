@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigatorbottom/screens/navBottom_page.dart';
+import 'package:navigatorbottom/views/screens/navBottom_page.dart';
 
 void main() {
   runApp(const MyApp());

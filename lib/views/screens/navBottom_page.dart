@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:navigatorbottom/screens/add.dart';
-import 'package:navigatorbottom/screens/home_page.dart';
-import 'package:navigatorbottom/screens/shop.dart';
-import 'package:navigatorbottom/screens/person.dart';
-import 'package:navigatorbottom/screens/search.dart';
+import 'package:navigatorbottom/views/screens/add.dart';
+import 'package:navigatorbottom/views/screens/home_page.dart';
+import 'package:navigatorbottom/views/screens/person.dart';
+import 'package:navigatorbottom/views/screens/search.dart';
+import 'package:navigatorbottom/views/screens/shop.dart';
+
 
 class NavBottonPage extends StatefulWidget {
   const NavBottonPage({Key? key}) : super(key: key);

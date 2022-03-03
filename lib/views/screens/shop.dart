@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:navigatorbottom/main.dart';
+
 
 class SHopPage extends StatefulWidget {
   const SHopPage({Key? key}) : super(key: key);
@@ -10,16 +12,12 @@ class SHopPage extends StatefulWidget {
 class _SHopPageState extends State<SHopPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        color: Colors.grey,
-        child: const Center(
-          child: Text(
-            "Shop",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 55),
-          ),
-        ),
-      ),
+    return PageView(
+      children: [
+        // ShopManyuPage(),
+        
+      ],
     );
+
   }
 }
